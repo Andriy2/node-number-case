@@ -1,11 +1,14 @@
 {
   "name": "number-case",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple prototype for number case",
   "main": "index.js",
   "repository": "https://github.com/Andriy2/node-number-case",
   "author": "Andriy2",
   "license": "MIT",
   "private": false,
-  "keywords": ["number", "case"]
+  "keywords": [
+    "number",
+    "case"
+  ]
 }
