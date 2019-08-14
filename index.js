@@ -24,10 +24,10 @@ function caser(first, second, fifth) {
     let modulo = absolute % 10;
     if (10 < absolute && absolute < 20 || 5 <= modulo || modulo === 0) {
         return number + space + fifth;
-    } else if (2 <= modulo && modulo < 5) {
-        return number + space + second;
-    } else {
+    } else if (modulo === 1) {
         return number + space + first;
+    } else {
+        return number + space + second;
     }
 }
 
